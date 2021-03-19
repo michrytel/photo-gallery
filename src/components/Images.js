@@ -5,7 +5,7 @@ const Images = () => {
     return (
         <div className="images">
             {docs && docs.map(doc => (
-                <div className="img" key={doc.id}><img src={doc.url} alt="collection"/></div>
+                <div key={doc.id}><img src={doc.url} className="img" alt="collection"/></div>
                 )
             )}
         </div>

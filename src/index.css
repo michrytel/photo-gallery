@@ -8,7 +8,7 @@
 
 /* base styles & title */
 body{
-  font-family: "Noto Serif";
+  font-family: "Noto Serif", serif;
   color: var(--secondary);
 }
 .App{
@@ -31,6 +31,8 @@ body{
 
 /* upload form styles */
 
+
+
 /* progress bar styles */
 .progress__bar {
   height: 5px;
@@ -39,6 +41,21 @@ body{
 }
 
 /* image grid styles */
+.images {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+}
+
+.images div {
+  flex: 0 0 25%;
+
+}
+.img {
+  max-width: 300px;
+  max-height: 300px;
+}
 
 
 /* modal styles */
